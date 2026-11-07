@@ -8,7 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.6](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.6).
+Aktuell: [Version 0.9.8](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.8).
+
+## Neu in 0.9.8
+
+- **Bis zu vier Pack-Dateien gleichzeitig:** Der Pack-Abgleich lädt neue Dateien parallel. Identische Inhalte werden auch bei mehreren Zielpfaden nur einmal übertragen. Alle Prüfsummen bleiben verpflichtend; der gesicherte Austausch im Spielordner beginnt erst nach vollständig erfolgreichen Downloads.
+- **Sauberer Abbruch und Wiederholung:** Bei einem fehlgeschlagenen Download werden parallele Übertragungen abgebrochen und beendet, bevor der Auftrag fehlschlägt oder erneut gestartet werden kann. Ein fehlerhafter Download erzeugt keine teilweise aktualisierte Spielinstallation.
+- **Weniger doppelte Prüfungen:** Installation und Spielvorbereitung verwenden einen gemeinsamen, frisch geprüften Pack-Stand für Minecraft/Fabric und Modpack. Der gleiche Ablauf lädt die Repository-Metadaten nicht erneut. Eine eigenständig gestartete Quellenprüfung bleibt aktuell; lokale Dateien und Prüfsummen werden weiterhin kontrolliert.
+- **Effizientere große Downloads:** Kleine Netzwerkblöcke werden zu 256-KiB-Schreibvorgängen zusammengefasst. Fortschrittsmeldungen kommen gebündelt statt für jedes kleine Datenpaket; der geprüfte Endstand wird immer gemeldet. Das verringert Schreib- und Anzeigeaufwand auch beim Launcher-Update. Die verfügbare Internetbandbreite oder einen langsamen CDN-Knoten kann der Launcher dadurch nicht garantieren.
+- **News zur passenden Pack-Version:** Everness News bevorzugt im CHANGELOG.md den Abschnitt, dessen Versionsnummer genau zu pack.toml passt. Frühere Änderungen und unveröffentlichte Planungen erscheinen dadurch nicht im aktuellen Beitrag. Ältere frei geschriebene Changelogs bleiben unterstützt. Ein eigener Pack-Newsbeitrag entsteht weiter automatisch aus dem veröffentlichten Repository, auch bevor das Pack aktualisiert wurde.
+- **Bildvorschau vollständig:** Launcher-Updatebilder werden in den News vollständig angezeigt und erscheinen zusätzlich groß im geöffneten Beitrag. Die kurzen Erklärungen im Bild werden nicht abgeschnitten.
+- **Neuer gemeinsamer Bildstil:** Das Titelbild übernimmt die visuelle Sprache der aktuellen Everness-Modpack-Updates mit heller Blockschrift, dunklen Informationsflächen und grünen/türkisen Akzenten. Motiv und Aufbau bleiben eigenständig. Die wichtigsten neuen Funktionen stehen als schnelle Vorschau direkt im Bild.
 
 ## Neu in 0.9.6
 
