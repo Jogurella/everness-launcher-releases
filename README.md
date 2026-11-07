@@ -8,7 +8,14 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.8](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.8).
+Aktuell: [Version 0.9.9](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.9).
+
+## Neu in 0.9.9
+
+- **Newsbilder ohne künstliche Seitenränder:** Die Bildfläche übernimmt automatisch die tatsächlichen Proportionen des geladenen Bildes. Die feste Hintergrundfläche entfällt. Das komplette Bild bleibt erhalten; Texte und Motive werden weder beschnitten noch verzerrt.
+- **Passende News-Karten:** Bei ausreichend Platz stehen Bild und Erklärung nebeneinander. In schmaleren Inhaltsbereichen wechseln sie untereinander. Auch Vollbild und Ultrawide erzeugen keine dunklen Füllstreifen neben dem Bild.
+- **Archiv und geöffnete Beiträge angepasst:** Kleine Vorschaubilder und große Artikelbilder behalten ebenfalls ihr ursprüngliches Seitenverhältnis. Große Artikelbilder werden auf die verfügbare Fensterfläche begrenzt, ohne eine zusätzliche dunkle Bildmatte zu erzeugen.
+- **Eigenes Updatebild im Everness-Stil:** Eine Galerie mit passgenauen Landschafts- und Hochkantbildern zeigt die neue Bildanpassung. Die wichtigsten Neuerungen stehen direkt im Bild.
 
 ## Neu in 0.9.8
 
