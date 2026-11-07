@@ -8,17 +8,20 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.2](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.2).
+Aktuell: [Version 0.9.3](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.3).
 
-## Neu in 0.9.2
+## Neu in 0.9.3
 
-- Sichtbarer Downloadfortschritt direkt im Updatebereich, synchron zum Status oben rechts.
-- Unabhängiges transparentes Updatefenster mit Everness-Logo, Ladekreis und Partikeln; ohne Hintergrundfläche, Ladebalken oder Musik.
-- Bestätigte Übergabe, Installation, Versionsprüfung und automatischer Neustart. Alte Programm- und Update-Dateien werden erst nach bestätigtem Start aufgeräumt.
-- Korrigierte Desktop- und Startmenü-Verknüpfungen; vorhandene reguläre Installationen werden auch beim Update aus der portablen Ausgabe berücksichtigt.
-- Korrekte Umlaute und sichtbare Fehler mit Wiederherstellung statt eines kommentarlosen Abbruchs.
-- Musik startet erst nach dem Bootlogo im sichtbaren Hauptfenster und läuft dort auch ohne Fokus weiter. Beim Minimieren und Aktualisieren pausiert sie.
-- Beim echten Spielstart verschwindet Everness in den Taskleisten-Infobereich und öffnet sich nach Spielende automatisch wieder.
+- **Leise Musik präzise einstellen:** Der untere Lautstärkebereich ist deutlich ruhiger abgestimmt. Die maximale Lautstärke verstärkt das Original nicht zusätzlich.
+- **Sanft ankommen:** Musik blendet beim Öffnen des Hauptfensters und nach dem Spielende vom stummen Anfang auf die gespeicherte Lautstärke ein. Bootlogo, minimierter Launcher und Updateinstallation bleiben stumm.
+- **Musik automatisch wechseln:** Eine neue gespeicherte Option spielt nach dem Ende den nächsten verfügbaren Titel. Ohne diese Option bleibt die bisherige Wiederholung aktiv.
+- **Dein zuletzt gespieltes Paket:** Die Startseite merkt sich das zuletzt tatsächlich gestartete Modpack. Das bloße Ansehen oder Auswählen einer anderen Karte ersetzt diesen Eintrag nicht.
+- **Dein Minecraft-Skin:** Das Kontofenster zeigt den eigenen vollständigen Charakter; oben rechts erscheint der passende Kopf. Das funktioniert auch mit einem über Prism bestätigten Profil. Öffentliche Skinbilder werden zwischengespeichert und können manuell aktualisiert werden.
+- **Kompakter Musikbereich:** Kleinerer Regler und Musikschalter, gezieltes Leuchten direkt am Symbol und ein bündig in die Seitenleiste passendes Lautstärkefenster.
+- **Einheitliche Symbole:** Prüf-, Aktualisierungs- und Downloadaktionen verwenden die zum Launcher passenden leichten Symbole. Die Serverstatusanzeige richtet ihre Breite nach dem Inhalt aus.
+- **Neu angeordnete News:** Das neueste Update steht groß im Mittelpunkt, darunter erscheinen zunächst nur zwei ältere Meldungen. Weitere Nachrichten öffnet ein eigener Button. Die vorhandenen Filter bleiben verfügbar. Der Bereich Einstellungen → Updates behält seine bisherige Anordnung.
+- **Manuell in den Infobereich:** Ein eigener Button oben neben den Fensteraktionen blendet Everness in den Windows-Infobereich aus. Das Tray-Symbol öffnet den Launcher wieder. Manueller Modus und automatisches Ablegen beim Spielstart verwenden dasselbe Symbol.
+- **Eigenes Updatebild:** Eine neue Waldsee-Landschaft begleitet diese Ausgabe.
 
 ## Enthaltene Funktionen
 
