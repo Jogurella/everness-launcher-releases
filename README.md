@@ -1,6 +1,6 @@
 # Everness Game-Launcher
 
-Windows-Launcher für die Forever-Everness-Community.
+Windows-Launcher für die Forever-Everness-Community. Unter Windows heißt die Anwendung **Evereness Launcher**; im Programm bleibt das Everness-Branding erhalten.
 
 Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthält veröffentlichte Windows-Programme, signierte Update-Manifeste und Versionshinweise. Das Entwicklungsrepository bleibt getrennt und privat. Private Kontodaten werden hier nicht veröffentlicht.
 
@@ -8,7 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.8.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.8.0).
+Aktuell: [Version 0.9.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.0).
+
+## Neu in 0.9.0
+
+- Eigenes Everness-Kontofenster mit geprüftem Prism-Fensterstatus, Wiederanzeigen versteckter Fenster und zuverlässiger Erkennung beim Schließen.
+- Elf Musikstücke mit jeweils eigenem KI-Landschaftsbild, darunter Alpha und Boss; spulbare Hörvorschau mit kleinem Audio-Ring aus dem echten Signal.
+- Feinere Lautstärkeregelung mit größerem Regelbereich und weich animiertem Mixer.
+- Bootlogo standardmäßig fünf Sekunden, alternativ drei, sieben oder zehn Sekunden.
+- Prüfstatus mit separatem Kreispfeil; Downloads enthalten ausschließlich tatsächliche Dateiübertragungen und öffnen sich nur auf Klick.
+- Automatische News mit separaten Launcher-Updates, Versionshinweisen vor der Installation und Glitzerwirbel bei ungelesenen Meldungen.
+- Überflüssige OpenGL/Vulkan-Auswahl oberhalb der Packkarten entfernt.
 
 ## Enthaltene Funktionen
 
@@ -21,7 +31,7 @@ Aktuell: [Version 0.8.0](https://github.com/Jogurella/everness-launcher-releases
 - Pack-Abgleich über die öffentlichen Everness-packwiz-Repositories, Prüfsummen und gesicherte Dateiwechsel.
 - Import von Modrinth-.mrpack, packwiz-Quellen und unterstützten Java-Modpack-ZIPs (Fabric und Vanilla).
 - Pack-Fenster mit Mod-Icons und Instanzeinstellungen, Welten-Backups und Live-Spielern.
-- Kompakte Einstellungen, Stimmungen und neun Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
+- Kompakte Einstellungen, Stimmungen und elf Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
 - Animiertes Download-Popup und News direkt aus den Pack-Updates.
 - Signierte Programmupdates für Installer und portable Ausgabe, auf Wunsch automatisch nach Ende laufender Spiele/Aufträge.
 - Alte Update-Dateien werden nach erfolgreichem Neustart aufgeräumt.
