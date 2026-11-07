@@ -8,17 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.1).
+Aktuell: [Version 0.9.2](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.2).
 
-## Neu in 0.9.1
+## Neu in 0.9.2
 
-- Nahtlose Kontoübernahme: Sobald Prism ein vollständiges Minecraft-Profil gespeichert hat, blendet Everness seine Fenster aus und kehrt automatisch zur Bibliothek zurück. Prism läuft unsichtbar als Engine weiter.
-- Minecraft-Profilname und UUID sind im Everness-Kontofenster sichtbar. Zugangstokens bleiben vollständig bei Prism.
-- Neue, dezent eingebettete Symbole für Prüfstatus und Downloads.
-- Kleiner Audio-Ring rechts im Musikfeld der Seitenleiste, passend zur tatsächlich hörbaren Musik.
-- Boss aus der Musikbibliothek entfernt; eine bisher gespeicherte Boss-Auswahl wechselt zu Alpha.
-- Jedes Launcher-Update hat ein eigenes Titelbild, einschließlich der bisherigen Veröffentlichungen. Künftige Releases bringen ihr Bild als eigenes Asset mit.
-- Vollbild- und Breitbildfehler der Anmeldeansicht behoben; Hauptseiten, Einstellungen und Paketdialoge auf passende Raster und sichere Überläufe abgestimmt.
+- Sichtbarer Downloadfortschritt direkt im Updatebereich, synchron zum Status oben rechts.
+- Unabhängiges transparentes Updatefenster mit Everness-Logo, Ladekreis und Partikeln; ohne Hintergrundfläche, Ladebalken oder Musik.
+- Bestätigte Übergabe, Installation, Versionsprüfung und automatischer Neustart. Alte Programm- und Update-Dateien werden erst nach bestätigtem Start aufgeräumt.
+- Korrigierte Desktop- und Startmenü-Verknüpfungen; vorhandene reguläre Installationen werden auch beim Update aus der portablen Ausgabe berücksichtigt.
+- Korrekte Umlaute und sichtbare Fehler mit Wiederherstellung statt eines kommentarlosen Abbruchs.
+- Musik startet erst nach dem Bootlogo im sichtbaren Hauptfenster und läuft dort auch ohne Fokus weiter. Beim Minimieren und Aktualisieren pausiert sie.
+- Beim echten Spielstart verschwindet Everness in den Taskleisten-Infobereich und öffnet sich nach Spielende automatisch wieder.
 
 ## Enthaltene Funktionen
 
