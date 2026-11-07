@@ -8,17 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.0).
+Aktuell: [Version 0.9.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.1).
 
-## Neu in 0.9.0
+## Neu in 0.9.1
 
-- Eigenes Everness-Kontofenster mit geprüftem Prism-Fensterstatus, Wiederanzeigen versteckter Fenster und zuverlässiger Erkennung beim Schließen.
-- Elf Musikstücke mit jeweils eigenem KI-Landschaftsbild, darunter Alpha und Boss; spulbare Hörvorschau mit kleinem Audio-Ring aus dem echten Signal.
-- Feinere Lautstärkeregelung mit größerem Regelbereich und weich animiertem Mixer.
-- Bootlogo standardmäßig fünf Sekunden, alternativ drei, sieben oder zehn Sekunden.
-- Prüfstatus mit separatem Kreispfeil; Downloads enthalten ausschließlich tatsächliche Dateiübertragungen und öffnen sich nur auf Klick.
-- Automatische News mit separaten Launcher-Updates, Versionshinweisen vor der Installation und Glitzerwirbel bei ungelesenen Meldungen.
-- Überflüssige OpenGL/Vulkan-Auswahl oberhalb der Packkarten entfernt.
+- Nahtlose Kontoübernahme: Sobald Prism ein vollständiges Minecraft-Profil gespeichert hat, blendet Everness seine Fenster aus und kehrt automatisch zur Bibliothek zurück. Prism läuft unsichtbar als Engine weiter.
+- Minecraft-Profilname und UUID sind im Everness-Kontofenster sichtbar. Zugangstokens bleiben vollständig bei Prism.
+- Neue, dezent eingebettete Symbole für Prüfstatus und Downloads.
+- Kleiner Audio-Ring rechts im Musikfeld der Seitenleiste, passend zur tatsächlich hörbaren Musik.
+- Boss aus der Musikbibliothek entfernt; eine bisher gespeicherte Boss-Auswahl wechselt zu Alpha.
+- Jedes Launcher-Update hat ein eigenes Titelbild, einschließlich der bisherigen Veröffentlichungen. Künftige Releases bringen ihr Bild als eigenes Asset mit.
+- Vollbild- und Breitbildfehler der Anmeldeansicht behoben; Hauptseiten, Einstellungen und Paketdialoge auf passende Raster und sichere Überläufe abgestimmt.
 
 ## Enthaltene Funktionen
 
@@ -31,7 +31,7 @@ Aktuell: [Version 0.9.0](https://github.com/Jogurella/everness-launcher-releases
 - Pack-Abgleich über die öffentlichen Everness-packwiz-Repositories, Prüfsummen und gesicherte Dateiwechsel.
 - Import von Modrinth-.mrpack, packwiz-Quellen und unterstützten Java-Modpack-ZIPs (Fabric und Vanilla).
 - Pack-Fenster mit Mod-Icons und Instanzeinstellungen, Welten-Backups und Live-Spielern.
-- Kompakte Einstellungen, Stimmungen und elf Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
+- Kompakte Einstellungen, Stimmungen und zehn Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
 - Animiertes Download-Popup und News direkt aus den Pack-Updates.
 - Signierte Programmupdates für Installer und portable Ausgabe, auf Wunsch automatisch nach Ende laufender Spiele/Aufträge.
 - Alte Update-Dateien werden nach erfolgreichem Neustart aufgeräumt.
