@@ -8,17 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.4](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.4).
+Aktuell: [Version 0.9.5](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.5).
 
-## Neu in 0.9.4
+## Neu in 0.9.5
 
-- **Importierte Modpacks löschen:** Auf der Packkarte und im Paketfenster gibt es jetzt einen Löschbutton. Nach einer eindeutigen Bestätigung entfernt Everness die Instanz inklusive Mods, Einstellungen, Welten, Screenshots und zugehörigen Welt- und Pack-Sicherungen. Auch die von Everness verwaltete Prism-Brücke wird entfernt. Die ursprüngliche Importdatei, andere Instanzen und gemeinsam genutzte Minecraft-Dateien bleiben erhalten.
-- **Geschütztes Löschen:** Feste Everness-Pakete lassen sich nicht entfernen. Bei laufendem Minecraft, offenem Prism-Einrichtungsfenster oder aktiven, wartenden beziehungsweise pausierten Aufträgen wird die Löschung blockiert. Unsichere Pfade und fremde Prism-Instanzen werden geschützt. Die Auswahl wechselt nach dem Entfernen eines aktiven Packs auf ein vorhandenes Profil; gespeicherte Pack-Optionen und veraltete Aufträge werden bereinigt.
-- **Importreste aufräumen:** Temporäre Archivordner werden nach einem erfolgreichen oder fehlgeschlagenen Import wieder entfernt.
-- **Minecraft News:** Statt „Alle Neuigkeiten“ gibt es eine eigene Rubrik mit aktuellen offiziellen Meldungen von Minecraft.net, den zugehörigen Bildern und einem Button zum vollständigen Artikel. Meldungen und Bilder werden lokal zwischengespeichert und bleiben offline verfügbar. Die Quelle wird regelmäßig sowie über „Aktualisieren“ geprüft; der Wortlaut folgt der offiziellen Quelle.
-- **Launcher News:** Dieser Reiter enthält ausschließlich Everness-Launcher-Veröffentlichungen und ihre Versionshinweise.
-- **Everness News:** So heißt der bisherige Modpack-News-Reiter. Hier stehen die Neuigkeiten der Everness-Pakete. Bereits geladene ältere Pack-Versionen bleiben in der Nachrichtenhistorie erhalten.
-- **Einheitliche Updatebilder:** Der feste Everness-Voxelstil mit Waldgrün, Lavendel und warmem Licht bleibt künftig erhalten. Jede Veröffentlichung bekommt ein neues Motiv, das wichtige Neuerungen sichtbar aufgreift. Die sortierten Pack-Truhen dieser Ausgabe stehen für die neue Verwaltung importierter Modpacks.
+- **Windows-Dateisperre beim Prüfen behoben:** Schreibzugriffe auf dieselbe Metadaten-Datei werden geordnet ausgeführt. Kurzzeitige Windows-Sperren beim Umbenennen werden mit begrenzten Wiederholungen behandelt. Die vorherige Datei bleibt bis zum erfolgreichen Austausch erhalten; fehlgeschlagene Schreibvorgänge räumen ihre eigene temporäre Datei auf.
+- **Aktuelle Pack-Version trotz GitHub-API-Limit:** Bei erschöpfter öffentlicher API-Quote ermittelt Everness den aktuellen Commit über den öffentlichen Repository-Feed. Alle Packdateien kommen anschließend aus genau diesem unveränderlichen Commit. Veraltete und neue Dateien aus dem Branch-Cache werden nicht mehr gemischt; sämtliche Prüfsummen bleiben verpflichtend.
+- **News und manuelle Prüfungen abgestimmt:** Quellenprüfungen desselben Profils laufen nacheinander. Everness News prüft die aktuelle Pack-Quelle auch dann, wenn bereits alte Metadaten gespeichert sind. Fehlgeschlagene Prüfungen werden mit einer sichtbaren Meldung und dem gespeicherten Stand angezeigt.
+- **Pack aktualisieren:** Ein erkannter neuer Pack-Stand erhält direkt in der Packkarte einen Aktualisieren-Button. Auch geänderte Inhalte oder Einstellungs-Vorlagen ohne geänderte Versionsnummer werden berücksichtigt. Die Installation bereitet bei Bedarf den neuen Fabric-Loader vor.
+- **Eigenes Bild für Pack-News:** Pack-Beiträge übernehmen ein im geprüften Repository hinterlegtes Updatebild. Die News-Karte zeigt es vollständig; im geöffneten Beitrag erscheinen das große Bild und seine Bildunterschrift. Bilder bleiben im lokalen Cache verfügbar. Optional kann das Pack sein Bild über `options.everness.news-image` angeben; ansonsten wird ein passendes lokales README-Bild verwendet.
+- **Vulkan 2026.11.07.3 erkannt:** Der Live-Abgleich erkennt den Wechsel von .2 auf .3, VIRIS und Voxy als neue Dateien, die Entfernung der verwalteten Distant-Horizons-JAR und Fabric 0.20.1. Das vorhandene Vergleichsbild aus dem Vulkan-Repo erscheint mit seinem Hinweis auf eine schematische Darstellung. Die News enthalten keine veraltete VulkanMod-Beschreibung mehr.
+- **Updatebild im festen Everness-Stil:** Eine neue Lieferung am Walddepot steht für das zuverlässige Erkennen und Übernehmen neuer Versionen.
 
 ## Enthaltene Funktionen
 
