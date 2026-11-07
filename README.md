@@ -8,13 +8,16 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die aktuelle Windows-EXE unter **Releases** herunterladen und starten. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
+Aktuell: [Version 0.5.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.5.0).
+
 ## Enthaltene Funktionen
 
 - Getrennte OpenGL- und Vulkan-Instanzen mit eigenen Fensterlandschaften.
 - Pack-Abgleich über die öffentlichen Everness-packwiz-Repositories, Prüfsummen und gesicherte Dateiwechsel.
 - Import von Modrinth-.mrpack, packwiz-Quellen und unterstützten Java-Modpack-ZIPs (Fabric und Vanilla).
-- Instanzeinstellungen, Welten-Backups und Serverstatus.
-- Einstellbare Stimmungen und Hintergrundmusik aus lokal vorhandenen Minecraft-Assets.
+- Pack-Fenster mit Mod-Icons und Instanzeinstellungen, Welten-Backups und Live-Spielern.
+- Kompakte Einstellungen, Stimmungen und acht Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
+- Animiertes Download-Popup und News direkt aus den Pack-Updates.
 - Signierte Programmupdates; Packs und Launcher werden unabhängig aktualisiert.
 
 Eigene Spielstände und Einstellungen liegen unter `%LOCALAPPDATA%\EvernessGameLauncher` und bleiben bei Programmupdates erhalten.
