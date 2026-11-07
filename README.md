@@ -8,7 +8,15 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.9](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.9).
+Aktuell: [Version 0.9.10](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.10).
+
+## Neu in 0.9.10
+
+- **Eine Bildanzeige für alle Newsbereiche:** Minecraft News, Everness News und Launcher News verwenden dieselbe Darstellung. Vorschaubilder, Archivbilder und geöffnete Beiträge behalten die tatsächlichen Bildproportionen; zusätzliche dunkle Füllränder und Bildbeschnitt entfallen.
+- **Bilder auch in Minecraft-Beiträgen:** Das Bild einer Minecraft-Meldung erscheint jetzt ebenfalls groß im geöffneten Beitrag. Der Link zum vollständigen offiziellen Artikel bleibt verfügbar.
+- **Everness-Ersatzbilder vollständig anzeigen:** Auch ein mit dem Launcher geliefertes Packbild, etwa bei OpenGL ohne eigenes Repo-Updatebild, wird im Beitrag angezeigt. Repo-Bildunterschriften und alternative Bildbeschreibungen bleiben erhalten.
+- **Passend zum Fenster:** Bild- und Rahmenmaße stimmen in kleinen Fenstern, Full HD und 4K überein. Große Beitragsbilder werden ohne Verzerrung auf die verfügbare Fläche begrenzt. Wenn kein Bild vorhanden ist, erscheint im Beitrag kein leerer Bildrahmen.
+- **Eigenes Updatebild im gemeinsamen Everness-Stil:** Drei Bildtafeln auf einem Dorfplatz stehen für die einheitliche Darstellung in allen drei Newsbereichen; die wichtigsten Neuerungen sind direkt im Bild erklärt.
 
 ## Neu in 0.9.9
 
