@@ -8,7 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.5](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.5).
+Aktuell: [Version 0.9.6](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.6).
+
+## Neu in 0.9.6
+
+- **Persönliche Einstellungen schützen:** Jedes Modpack besitzt unter „Pack verwalten → Einstellungen“ einen dauerhaft gespeicherten Schalter. Er ist standardmäßig eingeschaltet und bewahrt vorhandene Hotkeys, Modoptionen und Shader-Einstellungen bei Pack-Updates. Fehlende Vorgaben werden ergänzt. Wer ausdrücklich neue Pack-Vorgaben übernehmen möchte, kann den Schutz für diese Instanz ausschalten.
+- **Modpack-Updates repariert:** Ein lokal angepasstes Shader- oder Ressourcenpaket blockiert das Update nicht mehr, solange sich die zugehörige Quelldatei nicht geändert hat. Die lokale Datei bleibt erhalten und wird mit ihrer tatsächlichen Prüfsumme erfasst. Bei echten beidseitigen Änderungen zeigt „Dateikonflikte klären“ die betroffenen Dateien; erst eine ausdrückliche Bestätigung erlaubt den Austausch mit Sicherung. Eine erneute Änderung nach der Bestätigung erfordert eine neue Prüfung.
+- **Modsuche korrigiert:** Suchbegriffe filtern die Modliste unmittelbar nach Modname oder Dateiname. Eingabe und Fokus bleiben erhalten.
+- **Vollständige Umrandungen:** Fokusrahmen von Eingaben, Auswahlfeldern und Buttons liegen innerhalb der Bedienelemente und werden an Scrollbereichen nicht abgeschnitten. Suchleiste, Pack-Reiter und Einstellungsnavigation wurden angepasst.
+- **Dialoge per Außenklick schließen:** Ein Klick auf den abgedunkelten Bereich schließt das Vordergrundfenster. Ziehen aus einem Eingabefeld nach außen schließt es nicht versehentlich.
+- **Blattpartikel in allen Stimmungen:** Kleine Lichtpunkte und eine sanfte Windspur umspielen das Everness-Blatt in der jeweiligen Akzentfarbe. Bei deaktivierten Animationen, ausgeschalteten Effekten oder reduzierter Systembewegung verschwinden sie.
+- **Eigenes Updatebild im Everness-Stil:** Ein geschütztes Reisetagebuch und leuchtende Blätter stehen für erhaltene persönliche Einstellungen und ruhige Animationen.
 
 ## Neu in 0.9.5
 
