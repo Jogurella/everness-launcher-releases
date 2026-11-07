@@ -6,9 +6,9 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 ## Verwenden
 
-Die aktuelle Windows-EXE unter **Releases** herunterladen und starten. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
+Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.5.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.5.0).
+Aktuell: [Version 0.6.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.6.0).
 
 ## Enthaltene Funktionen
 
@@ -18,13 +18,16 @@ Aktuell: [Version 0.5.0](https://github.com/Jogurella/everness-launcher-releases
 - Pack-Fenster mit Mod-Icons und Instanzeinstellungen, Welten-Backups und Live-Spielern.
 - Kompakte Einstellungen, Stimmungen und acht Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
 - Animiertes Download-Popup und News direkt aus den Pack-Updates.
-- Signierte Programmupdates; Packs und Launcher werden unabhängig aktualisiert.
+- Signierte Programmupdates für Installer und portable Ausgabe, auf Wunsch automatisch nach Ende laufender Spiele/Aufträge.
+- Alte Update-Dateien werden nach erfolgreichem Neustart aufgeräumt.
+- Animierter Musik-Schalter mit Hover-Effekt direkt über Hilfe.
+- Packs und Launcher werden unabhängig aktualisiert.
 
 Eigene Spielstände und Einstellungen liegen unter `%LOCALAPPDATA%\EvernessGameLauncher` und bleiben bei Programmupdates erhalten.
 
 ## Programmupdates
 
-Jede unterstützte Veröffentlichung enthält eine Windows-EXE und `everness-update.json`. Der Launcher kontrolliert die Ed25519-Signatur mit seinem hinterlegten öffentlichen Schlüssel, die Versionsnummer sowie Größe und SHA-256 der Programmdatei. Beim Installieren wird die vorige EXE gesichert. Private Signierschlüssel gehören nicht in dieses Repository.
+Jede unterstützte Veröffentlichung enthält ein Setup mit `everness-installer-update.json` sowie eine portable EXE mit `everness-update.json`. Der Launcher kontrolliert die Ed25519-Signatur mit seinem hinterlegten öffentlichen Schlüssel, die Versionsnummer sowie Größe und SHA-256 der Programmdatei. Portable Updates sichern die vorige EXE bis zum erfolgreichen Neustart; installierte Ausgaben werden mit dem verifizierten Setup aktualisiert. Die Deinstallation behält persönliche Daten. Private Signierschlüssel gehören nicht in dieses Repository.
 
 ## Unabhängiges Community-Projekt
 
