@@ -8,7 +8,7 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.7.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.7.0).
+Aktuell: [Version 0.7.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.7.1).
 
 ## Enthaltene Funktionen
 
@@ -20,7 +20,7 @@ Aktuell: [Version 0.7.0](https://github.com/Jogurella/everness-launcher-releases
 - Animiertes Download-Popup und News direkt aus den Pack-Updates.
 - Signierte Programmupdates für Installer und portable Ausgabe, auf Wunsch automatisch nach Ende laufender Spiele/Aufträge.
 - Alte Update-Dateien werden nach erfolgreichem Neustart aufgeräumt.
-- Animierter Musik-Schalter mit Lautstärke-Popup, zuverlässiger Wiederholung und The End von C418.
+- Animierter Musik-Schalter mit kompaktem, bündig in die Seitenleiste passendem Lautstärke-Popup, zuverlässiger Wiederholung und The End von C418.
 - Ansichten ohne sichtbaren Neuaufbau, ausgewogene Vollbildflächen und animiertes saisonales Wetter.
 - Aufräumbare Downloads, Spielvorbereitung in der Karte und optional separates Logfenster.
 - Laufende Spiele bleiben nach Schließen des Launchers aktiv und werden beim Wiederöffnen erkannt.
