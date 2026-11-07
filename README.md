@@ -8,20 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.3](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.3).
+Aktuell: [Version 0.9.4](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.4).
 
-## Neu in 0.9.3
+## Neu in 0.9.4
 
-- **Leise Musik präzise einstellen:** Der untere Lautstärkebereich ist deutlich ruhiger abgestimmt. Die maximale Lautstärke verstärkt das Original nicht zusätzlich.
-- **Sanft ankommen:** Musik blendet beim Öffnen des Hauptfensters und nach dem Spielende vom stummen Anfang auf die gespeicherte Lautstärke ein. Bootlogo, minimierter Launcher und Updateinstallation bleiben stumm.
-- **Musik automatisch wechseln:** Eine neue gespeicherte Option spielt nach dem Ende den nächsten verfügbaren Titel. Ohne diese Option bleibt die bisherige Wiederholung aktiv.
-- **Dein zuletzt gespieltes Paket:** Die Startseite merkt sich das zuletzt tatsächlich gestartete Modpack. Das bloße Ansehen oder Auswählen einer anderen Karte ersetzt diesen Eintrag nicht.
-- **Dein Minecraft-Skin:** Das Kontofenster zeigt den eigenen vollständigen Charakter; oben rechts erscheint der passende Kopf. Das funktioniert auch mit einem über Prism bestätigten Profil. Öffentliche Skinbilder werden zwischengespeichert und können manuell aktualisiert werden.
-- **Kompakter Musikbereich:** Kleinerer Regler und Musikschalter, gezieltes Leuchten direkt am Symbol und ein bündig in die Seitenleiste passendes Lautstärkefenster.
-- **Einheitliche Symbole:** Prüf-, Aktualisierungs- und Downloadaktionen verwenden die zum Launcher passenden leichten Symbole. Die Serverstatusanzeige richtet ihre Breite nach dem Inhalt aus.
-- **Neu angeordnete News:** Das neueste Update steht groß im Mittelpunkt, darunter erscheinen zunächst nur zwei ältere Meldungen. Weitere Nachrichten öffnet ein eigener Button. Die vorhandenen Filter bleiben verfügbar. Der Bereich Einstellungen → Updates behält seine bisherige Anordnung.
-- **Manuell in den Infobereich:** Ein eigener Button oben neben den Fensteraktionen blendet Everness in den Windows-Infobereich aus. Das Tray-Symbol öffnet den Launcher wieder. Manueller Modus und automatisches Ablegen beim Spielstart verwenden dasselbe Symbol.
-- **Eigenes Updatebild:** Eine neue Waldsee-Landschaft begleitet diese Ausgabe.
+- **Importierte Modpacks löschen:** Auf der Packkarte und im Paketfenster gibt es jetzt einen Löschbutton. Nach einer eindeutigen Bestätigung entfernt Everness die Instanz inklusive Mods, Einstellungen, Welten, Screenshots und zugehörigen Welt- und Pack-Sicherungen. Auch die von Everness verwaltete Prism-Brücke wird entfernt. Die ursprüngliche Importdatei, andere Instanzen und gemeinsam genutzte Minecraft-Dateien bleiben erhalten.
+- **Geschütztes Löschen:** Feste Everness-Pakete lassen sich nicht entfernen. Bei laufendem Minecraft, offenem Prism-Einrichtungsfenster oder aktiven, wartenden beziehungsweise pausierten Aufträgen wird die Löschung blockiert. Unsichere Pfade und fremde Prism-Instanzen werden geschützt. Die Auswahl wechselt nach dem Entfernen eines aktiven Packs auf ein vorhandenes Profil; gespeicherte Pack-Optionen und veraltete Aufträge werden bereinigt.
+- **Importreste aufräumen:** Temporäre Archivordner werden nach einem erfolgreichen oder fehlgeschlagenen Import wieder entfernt.
+- **Minecraft News:** Statt „Alle Neuigkeiten“ gibt es eine eigene Rubrik mit aktuellen offiziellen Meldungen von Minecraft.net, den zugehörigen Bildern und einem Button zum vollständigen Artikel. Meldungen und Bilder werden lokal zwischengespeichert und bleiben offline verfügbar. Die Quelle wird regelmäßig sowie über „Aktualisieren“ geprüft; der Wortlaut folgt der offiziellen Quelle.
+- **Launcher News:** Dieser Reiter enthält ausschließlich Everness-Launcher-Veröffentlichungen und ihre Versionshinweise.
+- **Everness News:** So heißt der bisherige Modpack-News-Reiter. Hier stehen die Neuigkeiten der Everness-Pakete. Bereits geladene ältere Pack-Versionen bleiben in der Nachrichtenhistorie erhalten.
+- **Einheitliche Updatebilder:** Der feste Everness-Voxelstil mit Waldgrün, Lavendel und warmem Licht bleibt künftig erhalten. Jede Veröffentlichung bekommt ein neues Motiv, das wichtige Neuerungen sichtbar aufgreift. Die sortierten Pack-Truhen dieser Ausgabe stehen für die neue Verwaltung importierter Modpacks.
 
 ## Enthaltene Funktionen
 
