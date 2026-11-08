@@ -8,7 +8,16 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.9.10](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.9.10).
+Aktuell: [Version 0.10.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.10.0).
+
+## Neu in 0.10.0
+
+- **Eigene Modpacks erstellen:** Name, Minecraft-Version sowie Fabric oder Vanilla wählen. Snapshots sind optional. Jedes Pack hat eine eigene Instanz.
+- **Neue Modpack-Bibliothek und Werkstatt:** Selbst erstellte und importierte Pakete werden getrennt und alphabetisch sortiert. Die überarbeitete Verwaltung bietet Mods, Ressourcenpakete, Shader, Einstellungen und Paketinfos.
+- **Modrinth direkt im Launcher:** Inhalte suchen, passende Version auswählen und per Plus hinzufügen. Erforderliche Abhängigkeiten und Anbieter-Prüfsummen werden berücksichtigt. Lokale JAR- und ZIP-Dateien können ebenfalls ergänzt werden.
+- **CurseForge verbinden:** Die offizielle Schnittstelle benötigt einen eigenen API-Schlüssel im Windows-Anmeldeinformationsspeicher. Downloads beachten die Freigabe des Autors; eingeschränkte Dateien lassen sich lokal hinzufügen.
+- **Ruhige, einheitliche Bedienung:** Spalt über der Modliste geschlossen, Scrollleisten an die Launcherfarben angepasst, klare Zahnradsymbole und direkte Dateipfad-Buttons für installierte Inhalte.
+- **Eigenes Updatebild:** Die neue Werkstatt und ihre wichtigsten Funktionen stehen direkt im Bild im gemeinsamen Everness-Stil.
 
 ## Neu in 0.9.10
 
