@@ -8,7 +8,16 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.10.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.10.1).
+Aktuell: [Version 0.11.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.11.0).
+
+## Neu in 0.11.0
+
+- **Modpack-Bibliothek neu gestaltet:** Klare Einstiegskarten für Erstellen und Importieren, eigene und importierte Sammlungen sowie kompakte Fenster bis 4K.
+- **50 wählbare Kartenbilder:** Beim Erstellen und Importieren auswählen oder später an der Packkarte ändern. Die Auswahl bleibt gespeichert; alle Motive sind offline enthalten.
+- **News nach Pack:** OpenGL und Vulkan besitzen jeweils ihre eigene große Updatevorschau und ihren Verlauf.
+- **Echte Online-Skinköpfe:** Öffentlich freigegebene Minecraft-IDs liefern die Spieleravatare über Mojang, mit Cache und neutralem Ersatzsymbol.
+- **Ruhige Bedienung:** Startfortschritt ohne überlappende Texte, passende Symbole für Speicher/Barrierefreiheit/Diagnose und ein sanfter Glasübergang unter der festen Modsuche.
+- **Verlustfreie Bildkomprimierung:** Rund 47 MB beziehungsweise 20 % weniger Bildspeicher gegenüber denselben PNGs, keine doppelten PNG-Quellen im Paket sowie stärkere Programmkomprimierung. Die 50 zusätzlichen Motive können die Gesamtgröße gegenüber älteren Versionen dennoch erhöhen.
 
 ## Neu in 0.10.1
 
@@ -92,7 +101,7 @@ Aktuell: [Version 0.10.1](https://github.com/Jogurella/everness-launcher-release
 - Laufende Spiele bleiben nach Schließen des Launchers aktiv und werden beim Wiederöffnen erkannt.
 - Packs und Launcher werden unabhängig aktualisiert.
 
-Eigene Spielstände und Einstellungen liegen unter `%LOCALAPPDATA%\EvernessGameLauncher` und bleiben bei Programmupdates erhalten.
+Eigene Spielstände und Einstellungen liegen unter `%USERPROFILE%\Games\Everness Launcher Data` und bleiben bei Programmupdates erhalten. Ältere Daten aus `%LOCALAPPDATA%\EvernessGameLauncher` werden bei Bedarf übernommen.
 
 ## Programmupdates
 
