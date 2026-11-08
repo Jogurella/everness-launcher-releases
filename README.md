@@ -8,7 +8,17 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.11.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.11.0).
+Aktuell: [Version 0.12.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.12.0).
+
+## Neu in 0.12.0
+
+- **Launcher Overhaul:** Start, Forever Everness, Server, News, Einstellungen und die linke Navigation übernehmen die neue Gestaltung der Modpack-Bibliothek.
+- **Direkter Einstieg:** Eigenes Startpanel mit echtem Paketstatus, Fortschritt in der Karte und schnellen Wegen zu Bibliothek, Backups und Paketverwaltung.
+- **Forever Everness als Projekt:** Große Projektidentität, Community-Server und klar getrennte OpenGL- und Vulkan-Spezialpakete.
+- **News übersichtlicher:** Drei große Quellenauswahlen, eigene Packfilter, eine hervorgehobene neueste Meldung und vollständige Bilder ohne Beschnitt.
+- **Einstellungen neu geordnet:** Übersicht und sieben klare Kategorien mit kompakter Bedienung; Stimmung und Musikstatus aktualisieren ihre Vorschau direkt.
+- **Prism-Download ohne API-Limit:** Das offizielle Portable-Paket 11.1.1 wird direkt geladen und anhand fest hinterlegter Größe und SHA256 geprüft. Der erste Engine-Download benötigt keine GitHub-Release-API mehr.
+- **Geprüft bis 4K:** 189 Tests, kleine Fenster und große Vollbildflächen sowie ein echter frischer Prism-Download bei absichtlich blockierter API.
 
 ## Neu in 0.11.0
 
