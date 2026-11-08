@@ -8,7 +8,18 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.13.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.13.0).
+Aktuell: [Version 0.14.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.14.0).
+
+## Neu in 0.14.0
+
+- **Sechs Stimmungen:** Cherry Dawn als neuer Standard, Midnight bleibt; Aurora, Ember, Lagoon und Golden Dunes kommen hinzu. Evergreen wird auf Cherry Dawn umgestellt.
+- **Mods per Drag & Drop:** Karten in die Packauswahl ziehen, mit Zielmarkierung und Anzieh-Animation. Kompatible Dateien und Abhängigkeiten verwenden den bestehenden geprüften Downloadweg.
+- **Start abbrechen:** Button direkt am Paket, einschließlich eines abbrechbaren Drei-Sekunden-Countdowns vor dem Engine-Start.
+- **Eigenständige Seiten:** Server-Panorama mit horizontaler Verbindungsleiste; kompaktere kleine Fenster und Sidebar ohne zusätzlichen Spruch.
+- **Ruhige Bildkanten und Archive:** Deckende runde Rahmen und deutlich kleinere ältere Meldungen mit vollständig sichtbaren Vorschaubildern.
+- **Schnellnews:** Rotierende Meldungen in der Titelleiste mit holografischer Bildvorschau bei Hover oder Tastaturfokus.
+- **Neues Windows-Icon:** Transparente Blatt-Ring-Gestaltung und Aktualisierung bestehender eigener Desktop-, Startmenü- und Taskleisten-Verknüpfungen.
+- **Geprüft:** 205 Tests, kleine Fenster bis 4K, ein echter Mod-Download per Ziehen in ein isoliertes Testpaket und Windows-Verknüpfungsprüfung.
 
 ## Neu in 0.13.0
 
