@@ -8,7 +8,14 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.10.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.10.0).
+Aktuell: [Version 0.10.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.10.1).
+
+## Neu in 0.10.1
+
+- **Downloadfehler abfangen:** Vorübergehende HTTP-Fehler wie GitHub 504 werden bei lesenden Anfragen bis zu dreimal mit wachsendem Abstand erneut versucht. Abbrechen bleibt unmittelbar möglich.
+- **Offizieller Ausweichweg:** Scheitert der normale Release-Download weiter, kann Everness Manifest und Programmdatei über die offizielle GitHub-API laden. Keine fremden Download-Proxys und keine zusätzliche Anmeldung.
+- **Unveränderte Verifizierung:** Ed25519-Signatur, Dateigröße und SHA-256 bleiben auf beiden Wegen verpflichtend. Beschädigte Dateien werden nicht installiert.
+- **Klarer Fortschritt:** Wiederholungen und Ausweichweg werden angezeigt. Automatische Updates prüfen nach vorübergehendem HTTP-Ausfall nach fünf Minuten erneut; längere Server-Wartezeiten bleiben maßgeblich.
 
 ## Neu in 0.10.0
 
