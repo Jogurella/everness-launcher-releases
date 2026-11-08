@@ -8,7 +8,16 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.12.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.12.0).
+Aktuell: [Version 0.13.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.13.0).
+
+## Neu in 0.13.0
+
+- **API mit automatischem Ersatzweg:** Updates und Launcher-News verwenden zuerst die GitHub-API. Bei Fehlern wie HTTP 403, 429 oder 504 übernimmt ein signierter Dateiindex ohne zusätzlichen Login.
+- **Weniger Anfragen:** Gemeinsamer Fünf-Minuten-Cache und zusammengeführte gleichzeitige Prüfungen. Nach API-Fehlern wird diese 15 Minuten ausgesetzt; der Dateiweg bleibt aktiv.
+- **Zwei Ersatzquellen:** Statische Indexdatei im Release-Repository, mit dem Index der neuesten GitHub-Veröffentlichung als weiterer Alternative.
+- **Everness-Quellen abgesichert:** OpenGL und Vulkan lösen ihren festen Commit bei einem API-Fehler über den öffentlichen Feed auf. Packwiz-Prüfsummen bleiben erhalten.
+- **Bestehende Sicherheit:** Programm-Manifeste bleiben auf allen Wegen signiert, dazu SHA256 und Größenprüfung. Der Ersatzindex ist ebenfalls signiert. Quellcode weiterhin privat.
+- **Automatische Umstellung:** Nach Installation dieses normalen GitHub-Updates ist keine weitere Einrichtung nötig. Eigenes Everness-Updatebild, verlustfrei komprimiert.
 
 ## Neu in 0.12.0
 
