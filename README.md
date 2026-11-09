@@ -8,7 +8,14 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.14.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.14.1).
+Aktuell: [Version 0.14.2](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.14.2).
+
+## Neu in 0.14.2
+
+- **Stil und Hintergrund gehören zusammen:** Cherry Dawn, Midnight, Aurora, Ember, Lagoon und Golden Dunes ändern nun auch den Fensterhintergrund und das große Startseitenbild.
+- **Überall gespeichert:** Die Auswahl bleibt beim Seitenwechsel und nach erneutem Öffnen erhalten; Modpack-Karten behalten ihre eigenen Motive.
+- **Ruhiger Bildwechsel:** Das nächste Motiv wird vor dem Austausch decodiert. Verspätete Antworten überschreiben keine neuere Stilwahl; wiederholte Prüfungen laden den aktiven Hintergrund nicht erneut.
+- **Geprüft:** 219 Tests, alle sechs Stile und eigener Everness-Updatebanner. Funktionen aus 0.14.1 bleiben enthalten.
 
 ## Neu in 0.14.1
 
