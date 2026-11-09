@@ -12,6 +12,9 @@ Aktuell: [Version 0.14.0](https://github.com/Jogurella/everness-launcher-release
 
 ## Neu in 0.14.0
 
+**Revision 2 im selben Update:** Ältere Meldungen in allen Newsbereichen sind jetzt feste 84-Pixel-Zeilen statt großer Karten. Das Windows-Icon wurde zum E-Monogramm mit Blatt neu gestaltet. Bestehende eigene Verknüpfungen werden auf eine dauerhafte ICO-Datei mit Inhaltskennung umgestellt, auch bei der portablen Ausgabe. Die Titelleiste zeigt `0.14.0 · R2`. Eine bereits installierte erste 0.14.0 lässt sich durch erneutes Ausführen des korrigierten Installers ersetzen.
+
+
 - **Sechs Stimmungen:** Cherry Dawn als neuer Standard, Midnight bleibt; Aurora, Ember, Lagoon und Golden Dunes kommen hinzu. Evergreen wird auf Cherry Dawn umgestellt.
 - **Mods per Drag & Drop:** Karten in die Packauswahl ziehen, mit Zielmarkierung und Anzieh-Animation. Kompatible Dateien und Abhängigkeiten verwenden den bestehenden geprüften Downloadweg.
 - **Start abbrechen:** Button direkt am Paket, einschließlich eines abbrechbaren Drei-Sekunden-Countdowns vor dem Engine-Start.
@@ -19,7 +22,7 @@ Aktuell: [Version 0.14.0](https://github.com/Jogurella/everness-launcher-release
 - **Ruhige Bildkanten und Archive:** Deckende runde Rahmen und deutlich kleinere ältere Meldungen mit vollständig sichtbaren Vorschaubildern.
 - **Schnellnews:** Rotierende Meldungen in der Titelleiste mit holografischer Bildvorschau bei Hover oder Tastaturfokus.
 - **Neues Windows-Icon:** Transparente Blatt-Ring-Gestaltung und Aktualisierung bestehender eigener Desktop-, Startmenü- und Taskleisten-Verknüpfungen.
-- **Geprüft:** 205 Tests, kleine Fenster bis 4K, ein echter Mod-Download per Ziehen in ein isoliertes Testpaket und Windows-Verknüpfungsprüfung.
+- **Geprüft:** 207 Tests, kleine Fenster bis 4K, ein echter Mod-Download per Ziehen in ein isoliertes Testpaket und Windows-Verknüpfungsprüfung.
 
 ## Neu in 0.13.0
 
