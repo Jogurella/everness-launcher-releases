@@ -8,7 +8,15 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.14.2](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.14.2).
+Aktuell: [Version 0.14.3](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.14.3).
+
+## Neu in 0.14.3
+
+- **Modloader-Import und Spielstart:** Fabric, Forge, NeoForge, Quilt, LiteLoader und Vanilla in den vorhandenen Java-Modpack-Importformaten; Forge + LiteLoader als ältere Kombination.
+- **Richtig vorbereitet:** Passende Java-Version und echte Prism-Komponenten; Installer, Bibliotheken und Startargumente der erweiterten Loader übernimmt Prism.
+- **Loader-Wechsel erkannt:** Name und Version verhindern, dass eine unpassende Vorbereitung nach einem Wechsel oder Pack-Update weiterverwendet wird.
+- **Klare Meldungen:** Unbekannte Startprofile und widersprüchliche Loader werden nicht stillschweigend in Vanilla umgewandelt. Reine CurseForge-ID-Manifeste benötigen weiterhin eine autorisierte Downloadauflösung.
+- **Prism bleibt Standard:** Die eigene Microsoft-App-Freigabe bleibt unbestätigt. Bestehende Packs und persönliche Daten bleiben erhalten; privater Quellcode.
 
 ## Neu in 0.14.2
 
@@ -137,7 +145,7 @@ Aktuell: [Version 0.14.2](https://github.com/Jogurella/everness-launcher-release
 
 - Getrennte OpenGL- und Vulkan-Instanzen mit eigenen Fensterlandschaften.
 - Pack-Abgleich über die öffentlichen Everness-packwiz-Repositories, Prüfsummen und gesicherte Dateiwechsel.
-- Import von Modrinth-.mrpack, packwiz-Quellen und unterstützten Java-Modpack-ZIPs (Fabric und Vanilla).
+- Import von Modrinth-.mrpack, packwiz-Quellen und unterstützten Java-Modpack-ZIPs mit Fabric, Forge, NeoForge, Quilt, LiteLoader oder Vanilla.
 - Pack-Fenster mit Mod-Icons und Instanzeinstellungen, Welten-Backups und Live-Spielern.
 - Kompakte Einstellungen, Stimmungen und zehn Hintergrundmusikstücke mit Motiven aus lokal vorhandenen Minecraft-Assets.
 - Animiertes Download-Popup und News direkt aus den Pack-Updates.
@@ -158,3 +166,4 @@ Jede unterstützte Veröffentlichung enthält ein Setup mit `everness-installer-
 ## Unabhängiges Community-Projekt
 
 Everness ist kein offizielles Minecraft-Produkt und wird nicht von Mojang oder Microsoft unterstützt oder mit ihnen verbunden. Minecraft-Spielprogramme und Musikaufnahmen werden nicht in der Launcher-EXE verteilt. Downloads und enthaltene Komponenten unterliegen den jeweiligen Nutzungsrechten und Lizenzen. Prism wird als unveränderte offizielle Anwendung mit seinen Lizenzdateien bezogen.
+
