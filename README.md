@@ -8,7 +8,14 @@ Dieses Repository ist der öffentliche **Download- und Updatekanal**. Es enthäl
 
 Die **Setup.exe** unter **Releases** herunterladen und starten. Der deutsche Assistent bietet einen Installationsordner, erstellt Verknüpfungen und registriert die Deinstallation in Windows. Die portable **Windows.exe** bleibt als Alternative verfügbar. Minecraft Java muss auf dem verwendeten Microsoft-Konto vorhanden sein. In der ersten Ausgabe übernimmt das unveränderte offizielle Prism die Microsoft-Anmeldung und den kontogebundenen Spielstart. Die eigene Everness-Anmeldung folgt nach der erforderlichen Freigabe mit einem späteren Launcher-Update.
 
-Aktuell: [Version 0.15.0](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.15.0).
+Aktuell: [Version 0.15.1](https://github.com/Jogurella/everness-launcher-releases/releases/tag/v0.15.1).
+
+## Neu in 0.15.1
+
+- **Freundekonten repariert:** Echter Windows-Anmeldeinformationsspeicher unterstützt den Freunde-Speicherbereich. Anmeldung, Kontoerstellung und Sitzungswiederherstellung geprüft.
+- **Ein Everness-Ladering:** Animiertes Blatt mit Ring statt horizontaler Ladebalken in Packs, Downloads, Importen, Updates und Startdesigns.
+- **Aufgeräumte Pack-Karten:** Eigene und importierte Packs mit getrennten Haupt- und Verwaltungsaktionen, passenden Breiten und mehr Platz für Status.
+- **Geprüft:** 303 Tests, echte Cloud-/Windows-Kontoerstellung und kleine sowie große Fenster. Eigenes Updatebild mit Kian; Quellcode privat.
 
 ## Neu in 0.15.0
 
